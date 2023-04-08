@@ -1,0 +1,175 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: var(--text-color-primary);
+  background-color: var(--background-color-primary);
+}
+
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--logo-color-dark);
+  line-height: 1.17385;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--background-color-primary);
+  line-height: 1.17385;
+}
+
+.logo-header > span,
+.logo-footer > span {
+  color: var(--hover-effect);
+}
+
+.list-whatwedo-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71429;
+  list-style-type: none;
+}
+
+.list-whatwedo-text h5 {
+  font-size: 14px;
+  line-height: 1.17214;
+}
+
+.headers-secondary {
+  font-size: 36px;
+  line-height: 1.171944;
+}
+
+.list-whatwedo-picture {
+  list-style-type: none;
+}
+
+.list-team {
+  list-style-type: none;
+}
+
+.navigation-list {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 1.17214;
+}
+
+.navigation-item {
+  text-decoration: none;
+  color: var(--text-color-primary);
+}
+
+.navigation-item:hover,
+.navigation-item:focus {
+  color: var(--hover-effect);
+}
+
+.section-effective {
+  color: var(--background-color-primary);
+  background-color: var(--background-color-secondary);
+}
+
+.section-effective h1 {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.363636;
+}
+
+.section-team {
+  background-color: var(--background-color-third);
+  color: var(--text-color-primary);
+  line-height: 1.171875;
+}
+
+.section-team h4 {
+  font-weight: 500;
+}
+
+.section-team p {
+  color: var(--text-color-secondary);
+}
+
+.button-order {
+  color: var(--background-color-primary);
+  background-color: var(--hover-effect);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  cursor: pointer;
+}
+
+.footer-address {
+  font-size: 14px;
+  color: var(--background-color-primary);
+  background-color: var(--background-color-secondary);
+  line-height: 1.7;
+}
+
+.contact {
+  font-size: 14px;
+  line-height: 1.17214;
+  color: var(--text-color-secondary);
+  text-decoration: none;
+}
+
+footer .contact {
+  color: var(--contact-color-footer);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--hover-effect);
+}
+
+.filter-list {
+  list-style-type: none;
+}
+.filter-list-choise {
+  background-color: var(--background-color-third);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-color-primary);
+  border: none;
+  line-height: 1.626;
+  cursor: pointer;
+}
+
+.filter-list-choise:hover,
+.filter-list-choise:focus {
+  background-color: var(--hover-effect);
+  color: var(--background-color-primary);
+}
+
+.filter-list-item {
+  color: var(--text-color-primary);
+  line-height: 1.171875;
+  list-style-type: none;
+}
+
+.filter-list-item h4 {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.filter-list-item p {
+  color: var(--text-color-secondary);
+  line-height: 1.875;
+}
+
+:root {
+  --logo-color-dark: #000000;
+  --hover-effect: #2196f3;
+  --contact-color-footer: #ffffff99;
+  --text-color-primary: #212121;
+  --text-color-secondary: #757575;
+  --background-color-primary: #ffffff;
+  --background-color-secondary: #2f303a;
+  --background-color-third: #f5f4fa;
+}
