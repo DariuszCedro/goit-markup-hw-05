@@ -153,7 +153,6 @@ footer .contact {
 
 .contact:hover .contact-icon,
 .contact:focus .contact-icon {
-  color: var(--hover-effect);
   fill: var(--hover-effect);
 }
 
