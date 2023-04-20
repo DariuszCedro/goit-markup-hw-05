@@ -529,6 +529,7 @@ figcaption.filter-figcaption {
   bottom: 0;
   background-color: var(--backdrop-color);
   z-index: 1;
+  transition-duration: 1s;
 }
 
 .modal {
